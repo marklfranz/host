@@ -1,5 +1,7 @@
 var pos = 25;
 var x = 0;
+var a = select('.moo');
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -33,7 +35,7 @@ if(pos > windowHeight){
 } else if (pos < 0){
   pos = windowHeight;
 }
-
+a.position(pos,50);
 my(50,pos,255);
 my(100,pos,100);
 my(width/2,pos,50);
