@@ -1,11 +1,12 @@
 var pos = 25;
 var x = 0;
-var a = select('.moo');
+
 
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(24);
+  var a = select('#moo');
 }
 
 function draw() {
