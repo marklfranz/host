@@ -53,7 +53,6 @@ function my(a,b,c){
 }
 
 function mouseWheel(event) {
-  println(event.delta);
   //move the square according to the vertical scroll amount
   pos += event.delta;
   //uncomment to block page scrolling
