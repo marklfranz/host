@@ -6,7 +6,7 @@ var x = 0;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(24);
-  var a = select('#moo');
+  var d = document.getElementById('#moo');
 }
 
 function draw() {
@@ -36,7 +36,7 @@ if(pos > windowHeight){
 } else if (pos < 0){
   pos = windowHeight;
 }
-a.position(pos,50);
+d.position(pos,50);
 my(50,pos,255);
 my(100,pos,100);
 my(width/2,pos,50);
